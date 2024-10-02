@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b71f58"
+    android:backgroundTint="#b71f58"
+    tools:context=".MainActivity5">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="411dp"
+        android:layout_height="743dp"
+        android:backgroundTint="#FFFFFF"
+        android:textSize="24sp"
+        app:cornerRadius="80dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="345dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#F4F4F4"
+        android:textSize="24sp"
+        app:cornerRadius="15dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="345dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#F4F4F4"
+        android:textSize="24sp"
+        app:cornerRadius="15dp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="345dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#F4F4F4"
+        android:textSize="24sp"
+        app:cornerRadius="15dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="345dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#F4F4F4"
+        android:textSize="24sp"
+        app:cornerRadius="15dp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="506dp" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="345dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#F4F4F4"
+        android:textSize="24sp"
+        app:cornerRadius="15dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="555dp" />
+
+    <EditText
+        android:id="@+id/editTextText9"
+        android:layout_width="318dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#F4F4F4"
+        android:ems="10"
+        android:inputType="text"
+        android:minLines="1"
+        android:shadowColor="#000000"
+        android:shadowDx="10"
+        android:text="Condições da Pele"
+        android:textColor="#b71f58"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <EditText
+        android:id="@+id/editTextText11"
+        android:layout_width="318dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#F4F4F4"
+        android:ems="10"
+        android:inputType="text"
+        android:minLines="1"
+        android:shadowColor="#000000"
+        android:shadowDx="10"
+        android:text="Tipos de Curvatura"
+        android:textColor="#b71f58"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <EditText
+        android:id="@+id/editTextText12"
+        android:layout_width="318dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#F4F4F4"
+        android:ems="10"
+        android:inputType="text"
+        android:minLines="1"
+        android:shadowColor="#000000"
+        android:shadowDx="10"
+        android:text="Cor do Cabelo"
+        android:textColor="#b71f58"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="555dp" />
+
+    <EditText
+        android:id="@+id/editTextText13"
+        android:layout_width="318dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#F4F4F4"
+        android:ems="10"
+        android:inputType="text"
+        android:minLines="1"
+        android:shadowColor="#000000"
+        android:shadowDx="10"
+        android:text="Estado do Cabelo"
+        android:textColor="#b71f58"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="508dp" />
+
+    <EditText
+        android:id="@+id/editTextText10"
+        android:layout_width="318dp"
+        android:layout_height="43dp"
+        android:backgroundTint="#F4F4F4"
+        android:ems="10"
+        android:inputType="text"
+        android:minLines="1"
+        android:shadowColor="#000000"
+        android:shadowDx="10"
+        android:text="Sensibilidade a Produtos"
+        android:textColor="#b71f58"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="26dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/keyboard_arrow_down_24dp_b71f58_fill0_wght400_grad0_opsz24"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="315dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="26dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/keyboard_arrow_down_24dp_b71f58_fill0_wght400_grad0_opsz24"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="26dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/keyboard_arrow_down_24dp_b71f58_fill0_wght400_grad0_opsz24"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="472dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="26dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/keyboard_arrow_down_24dp_b71f58_fill0_wght400_grad0_opsz24"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="26dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/keyboard_arrow_down_24dp_b71f58_fill0_wght400_grad0_opsz24"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="568dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="345dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#F4F4F4"
+        android:textSize="24sp"
+        app:cornerRadius="15dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="318dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#F4F4F4"
+        android:ems="10"
+        android:inputType="text"
+        android:minLines="1"
+        android:shadowColor="#000000"
+        android:shadowDx="10"
+        android:text="Tipo de Pele"
+        android:textColor="#b71f58"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="286dp"
+        android:layout_height="112dp"
+        android:layout_marginEnd="60dp"
+        android:text="Me fale um pouco sobre você!"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="290dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="92dp"
+        android:text="Sobre sua pele"
+        android:textAlignment="textStart"
+        android:textColor="#b71f58"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="290dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="92dp"
+        android:text="Sobre seu Cabelo"
+        android:textAlignment="textStart"
+        android:textColor="#b71f58"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="269dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#b71f58"
+        android:text="Concluir"
+        android:textSize="24sp"
+        app:cornerRadius="15dp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="632dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="26dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/keyboard_arrow_down_24dp_b71f58_fill0_wght400_grad0_opsz24"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="266dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

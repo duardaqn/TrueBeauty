@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6">
+
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="412dp"
+        android:layout_height="424dp"
+        android:backgroundTint="#b71f58"
+        android:textSize="24sp"
+        app:cornerRadius="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-372dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="287dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="72dp"
+        android:text="Nova Resenha"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="10dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="61dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="4dp"
+        android:text="Avançar"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="13dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="40dp"
+        android:layout_height="33dp"
+        app:srcCompat="@drawable/close_24dp_ffffff_fill0_wght400_grad0_opsz24"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="135dp"
+        android:layout_height="139dp"
+        app:srcCompat="@drawable/_0040800_1603237067095_eb9175900d5cc"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="136dp"
+        android:layout_height="141dp"
+        app:srcCompat="@drawable/d5c8ebdfa1eb3ec56d3c284577f3a1c6"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="134dp"
+        android:layout_height="136dp"
+        app:srcCompat="@drawable/db2cf17b7b5a4bd49194a06170adf503"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="417dp"
+        android:layout_height="556dp"
+        app:srcCompat="@drawable/actine_6"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="-72dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
